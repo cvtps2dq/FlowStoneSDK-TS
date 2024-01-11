@@ -1,23 +1,7 @@
-class FsSDKFloatArray{
-    private _len:Number;
-    private _pData:Array<number>;
-
-
-    get len(): Number {
-        return this._len;
-    }
-
-    set len(value: Number) {
-        this._len = value;
-    }
-
-    get pData(): Array<number> {
-        return this._pData;
-    }
-
-    set pData(value: Array<number>) {
-        this._pData = value;
-    }
+class FsSDKIntArray{
+    //TODO create an integer type because this will break as hard as my head when i hit it with my desk xd
+    private len:Number;
+    private pData:Array<number>;   // replace this with explicit int type
 }
 
-export default FsSDKFloatArray;
+export default FsSDKIntArray;
